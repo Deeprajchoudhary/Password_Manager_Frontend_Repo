@@ -1,16 +1,20 @@
-# React + Vite
+# <PassOP/> - Your Own Password Manager (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive, and secure frontend application for managing your web credentials. Built with React and Vite, this application serves as the user interface for the PassOP backend API.
 
-Currently, two official plugins are available:
+## ✨ Features
+* **Full CRUD Operations:** Create, read, update, and delete passwords effortlessly.
+* **One-Click Copy:** Seamlessly copy usernames and passwords to your clipboard with visual Toast notifications.
+* **Password Masking:** Keep your screen secure by toggling password visibility on and off.
+* **Responsive Design:** Fully mobile-friendly layout built with Tailwind CSS.
+* **Unique Identification:** Utilizes UUID for safe and accurate data handling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+* **Framework:** React (via Vite)
+* **Styling:** Tailwind CSS
+* **Icons:** FontAwesome & LordIcons
+* **Notifications:** React-Toastify
+* **HTTP Client:** Fetch API
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Deployed Link (Combined with backend on vercel.com) 
+https://password-manager-frontend-repo.vercel.app/
